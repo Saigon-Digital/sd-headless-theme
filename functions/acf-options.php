@@ -24,6 +24,7 @@ if (function_exists('acf_add_options_page')) {
         'page_title'    => 'Scripts',
         'menu_title'    => 'Scripts',
         'parent_slug'   => 'site-settings',
+        'capability' => 'edit_posts',
         'show_in_graphql' => true,
     ));
 
